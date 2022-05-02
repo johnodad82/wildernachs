@@ -1,0 +1,92 @@
+h1 {
+    border: 10px double black;
+    margin-top: 50px; 
+    font-weight: bold; 
+    color: rgb(3, 3, 19); 
+    font-size: 45px;
+    max-width: fit-content;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px gray;
+    text-shadow: 10px 10px 10px gray;
+    border-radius: 30px;
+}
+
+hr {
+    max-width: 80%;
+    color: black;
+}
+
+body {
+    background-color: rgb(126, 250, 115);
+}
+
+.dd {
+    position: relative;
+    display: inline-block;
+    border: 4px double black;
+    padding: 5px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 6px gray;
+    border-radius: 10px;
+}
+
+.dd-content {
+    position: absolute;
+    display: none;
+}
+.dd:hover > .dd-content {
+    display: block;
+    border: 3px double black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px gray;
+    padding-right: 35px;
+}
+
+div {
+    font-size: 20px;
+}
+
+img {
+    border-radius: 10%;
+    box-shadow: 10px 10px 15px gray;
+    max-width: 75%;
+}
+
+h2 {
+    border: 10px double black;
+    margin-top: 150px; 
+    font-weight: bold; 
+    color: rgb(3, 3, 19); 
+    font-size: 40px;
+    max-width: fit-content;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 15px gray;
+    text-shadow: 10px 10px 10px gray;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+.card {
+    box-shadow: 10px 10px 15px gray;
+    width: fit-content;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+
+.card > iframe {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: opx;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card > p {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+}
+
